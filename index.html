@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kadeřnictví DENY | Stylové studio v Praze</title>
+    <meta name="description"
+        content="Stylové kadeřnické studio DeNy nabízí kompletní kadeřnické služby, moderní střihy, barvení a profesionální péči o vlasy v Praze.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#home">SALON <span>DENY</span></a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Domů</a></li>
+                    <li><a href="#about">O nás</a></li>
+                    <li><a href="#services">Služby</a></li>
+                    <li><a href="#pricing">Ceník</a></li>
+                    <li><a href="#gallery">Galerie</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                    <li><a href="#booking" class="btn-nav">Rezervace</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Vítejte v Salonu DENY</h1>
+            <p>Stylové kadeřnické studio, kde se budete cítit jako znovuzrození.</p>
+            <div class="hero-buttons">
+                <a href="#pricing" class="btn btn-outline">Ceník</a>
+                <a href="#booking" class="btn btn-primary">Online Rezervace</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">O Nás</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Stylové kadeřnické studio nabízí kompletní kadeřnické služby, pohodlí, komfort a práci s těmi
+                        nejkvalitnějšími vlasovými produkty. Profesionálně vyškolený personál se kompletně postará o Váš
+                        nový vzhled.</p>
+                    <p>Nabízíme nové trendy střihů a to jak pánských, tak dámských - a samozřejmě také barvení. Naší
+                        předností je příjemné prostředí a poradenství v oblasti image.</p>
+                    <p>Salon je vybaven profesionální technikou značek <strong>Wella</strong> a <strong>Jaguar</strong>
+                        (včetně horkých nůžek pro zdravé konečky) a používá výhradně profesionální kosmetiku Wella.</p>
+                </div>
+                <!-- Placeholder for an image if we had a specific 'about' image, using a gallery one for now -->
+                <div class="about-image">
+                    <img src="assets/gallery1.jpg" alt="Interiér Salonu DENY">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Naše Služby</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-cut"></i>
+                    <h3>Střihy</h3>
+                    <p>Dámské i pánské střihy podle nejnovějších trendů. Poradenství v oblasti image.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Barvení & Melír</h3>
+                    <p>Profesionální barvení, melírování a tónování vlasů kosmetikou Wella.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-fire"></i>
+                    <h3>Horké nůžky</h3>
+                    <p>Stříhání horkými nůžkami Jaguar pro zacelení a ozdravení konečků.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-spa"></i>
+                    <h3>Péče & Regenerace</h3>
+                    <p>Brazilský keratin, vlasové zábaly, mytí a hloubková regenerace.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section">
+        <div class="container">
+            <h2 class="section-title">Ceník Služeb</h2>
+
+            <div class="pricing-tabs">
+                <button class="tab-btn active" data-target="individual">Jednotlivé úkony</button>
+                <button class="tab-btn" data-target="packages">Balíčky (Komplet)</button>
+            </div>
+
+            <div class="pricing-content active" id="individual">
+                <div class="price-list">
+                    <div class="price-item">
+                        <span>Mytí a regenerace</span>
+                        <span>25 - 35 Kč</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Stříhání vlasů</span>
+                        <span>75 - 95 Kč</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Foukaná</span>
+                        <span>55 - 65 Kč</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Barvení celých vlasů</span>
+                        <span>150 - 250 Kč</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Melír přes čepici</span>
+                        <span>120 - 160 Kč</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Melír do alobalu</span>
+                        <span>12 - 20 Kč / ks</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pricing-content" id="packages">
+                <div class="price-list">
+                    <div class="price-item">
+                        <span>Stříhání (foukaná, mytí, styling)</span>
+                        <span>170 - 225 Kč</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Barvení (stříhání, foukaná, mytí, styling)</span>
+                        <span>320 - 475 Kč</span>
+                    </div>
+                    <div class="price-item">
+                        <span>Melír (stříhání, foukaná, mytí, styling)</span>
+                        <span>320 - 475 Kč</span>
+                    </div>
+                </div>
+                <p class="price-note">* Ceny jsou orientační a mohou se lišit dle náročnosti a spotřeby materiálu.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Fotogalerie</h2>
+            <div class="gallery-grid">
+                <img src="assets/gallery1.jpg" alt="Účes 1">
+                <img src="assets/gallery2.jpg" alt="Účes 2">
+                <img src="assets/gallery3.jpg" alt="Účes 3">
+                <img src="assets/gallery4.jpg" alt="Účes 4">
+                <img src="assets/gallery5.jpg" alt="Účes 5">
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="section">
+        <div class="container">
+            <h2 class="section-title">Online Objednávka</h2>
+            <div class="booking-wrapper">
+                <div class="booking-steps">
+                    <div class="step active" data-step="1">1. Kontakt</div>
+                    <div class="step" data-step="2">2. Termín</div>
+                    <div class="step" data-step="3">3. Služba</div>
+                </div>
+
+                <form id="booking-form">
+                    <!-- Step 1: Contact -->
+                    <div class="form-step active" id="step-1">
+                        <h3>Váš Kontakt</h3>
+                        <div class="form-group">
+                            <label for="name">Jméno a příjmení</label>
+                            <input type="text" id="name" required placeholder="Jan Novák">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefon</label>
+                            <input type="tel" id="phone" required placeholder="+420 777 123 456">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" required placeholder="jan.novak@email.cz">
+                        </div>
+                        <div class="form-actions right">
+                            <button type="button" class="btn btn-primary next-step">Další</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Date -->
+                    <div class="form-step" id="step-2">
+                        <h3>Výběr Termínu</h3>
+                        <div class="form-group">
+                            <label for="date">Datum</label>
+                            <input type="date" id="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Preferovaný čas</label>
+                            <select id="time" required>
+                                <option value="">Vyberte čas</option>
+                                <option value="09:00">09:00</option>
+                                <option value="10:00">10:00</option>
+                                <option value="11:00">11:00</option>
+                                <option value="13:00">13:00</option>
+                                <option value="14:00">14:00</option>
+                                <option value="15:00">15:00</option>
+                                <option value="16:00">16:00</option>
+                                <option value="17:00">17:00</option>
+                            </select>
+                        </div>
+                        <div class="form-actions">
+                            <button type="button" class="btn btn-outline prev-step">Zpět</button>
+                            <button type="button" class="btn btn-primary next-step">Další</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Service -->
+                    <div class="form-step" id="step-3">
+                        <h3>Výběr Služby</h3>
+                        <div class="services-selection">
+                            <div class="radio-group">
+                                <input type="radio" name="service" id="s1" value="Dámský střih" checked>
+                                <label for="s1">Dámský střih</label>
+                            </div>
+                            <div class="radio-group">
+                                <input type="radio" name="service" id="s2" value="Pánský střih">
+                                <label for="s2">Pánský střih</label>
+                            </div>
+                            <div class="radio-group">
+                                <input type="radio" name="service" id="s3" value="Barvení">
+                                <label for="s3">Barvení</label>
+                            </div>
+                            <div class="radio-group">
+                                <input type="radio" name="service" id="s4" value="Melír">
+                                <label for="s4">Melír</label>
+                            </div>
+                            <div class="radio-group">
+                                <input type="radio" name="service" id="s5" value="Brazilský Keratin">
+                                <label for="s5">Brazilský Keratin</label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="note">Poznámka (nepovinné)</label>
+                            <textarea id="note" rows="3"></textarea>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="button" class="btn btn-outline prev-step">Zpět</button>
+                            <button type="submit" class="btn btn-primary">Odeslat Rezervaci</button>
+                        </div>
+                    </div>
+                </form>
+
+                <div id="booking-success" class="hidden">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>Děkujeme za rezervaci!</h3>
+                    <p>Brzy Vás budeme kontaktovat pro potvrzení termínu.</p>
+                    <button class="btn btn-primary" id="reset-booking">Nová rezervace</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3>DeNy Kadeřnictví</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Nusle 11, 50601 Praha</p>
+                <p><i class="fas fa-phone"></i> 776 258 946</p>
+                <p><i class="fas fa-envelope"></i> d.lacna@seznam.cz</p>
+                <div class="socials">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-hours">
+                <h3>Otevírací doba</h3>
+                <ul>
+                    <li><span>Pondělí - Pátek:</span> 9:00 - 18:00</li>
+                    <li><span>Sobota:</span> Zavřeno</li>
+                    <li><span>Neděle:</span> 10:00 - 16:00</li>
+                </ul>
+            </div>
+            <div class="footer-map">
+                <!-- Embedding a simple google map placeholder link or iframe if needed, static for now -->
+                <iframe src="https://maps.google.com/maps?q=Nusle+11,+50601&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                    width="100%" height="250" style="border:0; border-radius: 5px;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Kadeřnictví DENY. Všechna práva vyhrazena.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
