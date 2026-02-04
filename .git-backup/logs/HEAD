@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 1db63c0a1a83f3b51df182fa4f8f265b8bd3bcc6 Stefan <stefan@example.com> 1770236643 +0100	commit (initial): Initial commit: Add website files
+1db63c0a1a83f3b51df182fa4f8f265b8bd3bcc6 1db63c0a1a83f3b51df182fa4f8f265b8bd3bcc6 Stefan <stefan@example.com> 1770237477 +0100	checkout: moving from master to rybarnicka
+1db63c0a1a83f3b51df182fa4f8f265b8bd3bcc6 b6a1bd9fa1759d7c0515efe69fbcbe3849cbb59f Stefan <stefan@example.com> 1770238435 +0100	commit: Add GitHub Action workflow for Azure deployment
+0000000000000000000000000000000000000000 b6a1bd9fa1759d7c0515efe69fbcbe3849cbb59f Stefan <stefan@example.com> 1770238435 +0100	Branch: renamed refs/heads/ryb-temp to refs/heads/rybarnicka
