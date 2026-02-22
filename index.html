@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Kadeřnictví Vlasáč - Moderní střihy, barvení a péče o vlasy v luxusním prostředí.">
+    <title>Kadeřnictví Vlasáč | Moderní salon pro Váš styl</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <a href="#" class="logo">Vlasáč<span class="dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">O nás</a></li>
+                <li><a href="#services">Služby</a></li>
+                <li><a href="#gallery">Galerie</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+                <li><a href="#booking" class="btn-nav">Objednat se</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-bg"></div> <!-- Placeholder for background image -->
+        <div class="hero-content container">
+            <h1>Váš styl, <br>Naše vášeň</h1>
+            <p>Zažijte prémiovou péči v moderním prostředí salonu Vlasáč.</p>
+            <div class="hero-buttons">
+                <a href="#booking" class="btn">Rezervovat termín</a>
+                <a href="#services" class="btn btn-outline">Naše služby</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>O Salonu</h2>
+                <p>Kde se tradice setkává s moderním stylem.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Vítejte ve světě Vlasáč</h3>
+                    <p>Nejsme jen kadeřnictví, jsme místo, kde se budete cítit výjimečně. V salonu Vlasáč věříme, že
+                        každý střih by měl být uměleckým dílem přizpůsobeným vaší osobnosti.</p>
+                    <p>Pracujeme s prémiovou kosmetikou a neustále sledujeme světové trendy, abychom vám mohli nabídnout
+                        to nejlepší z oblasti vlasového stylingu.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=1974&auto=format&fit=crop"
+                        alt="Péče v salonu Vlasáč" class="parallax-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section bg-secondary">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ceník Služeb</h2>
+                <p>Profesionální péče za férové ceny.</p>
+            </div>
+
+            <div class="pricing-tabs">
+                <button class="tab-btn active" data-tab="women">Dámské</button>
+                <button class="tab-btn" data-tab="men">Pánské</button>
+            </div>
+
+            <div class="pricing-content active" id="women">
+                <div class="price-item">
+                    <div class="price-info">
+                        <h4>Stříhání + Foukaná</h4>
+                        <span class="price-desc">Konzultace, mytí, střih, foukaná, styling</span>
+                    </div>
+                    <div class="price-value">od 650 Kč</div>
+                </div>
+                <div class="price-item">
+                    <div class="price-info">
+                        <h4>Barva + Střih</h4>
+                        <span class="price-desc">Barvení, regenerace, střih, foukaná</span>
+                    </div>
+                    <div class="price-value">od 980 Kč</div>
+                </div>
+                <div class="price-item">
+                    <div class="price-info">
+                        <h4>Melír + Střih</h4>
+                        <span class="price-desc">Melírovací techniky, tónování, střih</span>
+                    </div>
+                    <div class="price-value">od 1180 Kč</div>
+                </div>
+                <div class="price-item">
+                    <div class="price-info">
+                        <h4>Balayage / Ombre</h4>
+                        <span class="price-desc">Moderní technika barvení, tónování, střih, styling</span>
+                    </div>
+                    <div class="price-value">od 1850 Kč</div>
+                </div>
+                <div class="price-item">
+                    <div class="price-info">
+                        <h4>Kreatinová kúra</h4>
+                        <span class="price-desc">Hloubková regenerace pro poškozené vlasy (Brazilský keratin)</span>
+                    </div>
+                    <div class="price-value">od 1500 Kč</div>
+                </div>
+                <div class="price-item">
+                    <div class="price-info">
+                        <h4>Olaplex regenerace</h4>
+                        <span class="price-desc">Intenzivní péče pro obnovu vlasových vazeb</span>
+                    </div>
+                    <div class="price-value">600 Kč</div>
+                </div>
+                <div class="price-item">
+                    <div class="price-info">
+                        <h4>Společenský účes</h4>
+                        <span class="price-desc">Účes na ples či večírek</span>
+                    </div>
+                    <div class="price-value">od 980 Kč</div>
+                </div>
+                <div class="price-item">
+                    <div class="price-info">
+                        <h4>Zkouška svatebního účesu</h4>
+                        <span class="price-desc">Konzultace a náhled svatebního stylingu (90 min)</span>
+                    </div>
+                    <div class="price-value">1500 Kč</div>
+                </div>
+                <div class="price-item">
+                    <div class="price-info">
+                        <h4>Detoxikační peeling pokožky</h4>
+                        <span class="price-desc">Hloubkové čištění vlasové pokožky a masáž</span>
+                    </div>
+                    <div class="price-value">450 Kč</div>
+                </div>
+            </div>
+
+            <div class="pricing-content" id="men">
+                <div class="price-item">
+                    <div class="price-info">
+                        <h4>Pánský střih (Klasika)</h4>
+                        <span class="price-desc">Mytí, střih nůžkami, styling</span>
+                    </div>
+                    <div class="price-value">350 Kč</div>
+                </div>
+                <div class="price-item">
+                    <div class="price-info">
+                        <h4>Pánský střih (Strojkem)</h4>
+                        <span class="price-desc">Jednoduchý střih jedním nástavcem</span>
+                    </div>
+                    <div class="price-value">250 Kč</div>
+                </div>
+                <div class="price-item">
+                    <div class="price-info">
+                        <h4>Úprava vousů (Hot Towel)</h4>
+                        <span class="price-desc">Tradiční holení břitvou s horkým ručníkem</span>
+                    </div>
+                    <div class="price-value">450 Kč</div>
+                </div>
+                <div class="price-item">
+                    <div class="price-info">
+                        <h4>Masáž hlavy</h4>
+                        <span class="price-desc">Relaxační masáž s vyživujícím olejem (15 min)</span>
+                    </div>
+                    <div class="price-value">250 Kč</div>
+                </div>
+                <div class="price-item">
+                    <div class="price-info">
+                        <h4>Dětský střih</h4>
+                        <span class="price-desc">Pro děti do 12 let</span>
+                    </div>
+                    <div class="price-value">250 Kč</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Fotogalerie</h2>
+                <p>Nahlédněte do našeho salonu.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-label="Balayage Style"></div>
+                <div class="gallery-item" data-label="Pánský střih & Fade"></div>
+                <div class="gallery-item" data-label="Svatební účes"></div>
+                <div class="gallery-item" data-label="Interiér salonu"></div>
+                <div class="gallery-item" data-label="Barvení a tónování"></div>
+                <div class="gallery-item" data-label="Péče a regenerace"></div>
+                <div class="gallery-item" data-label="Svatební styling"></div>
+                <div class="gallery-item" data-label="Moderní Fade"></div>
+                <div class="gallery-item" data-label="Prémiové produkty"></div>
+                <div class="gallery-item" data-label="Péče o vousy"></div>
+                <div class="gallery-item" data-label="Scalp masáž"></div>
+                <div class="gallery-item" data-label="Design Vlasáč"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking System - Wizard -->
+    <section id="booking" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Online Rezervace</h2>
+                <p>Zarezervujte si svůj termín jednoduše a rychle.</p>
+            </div>
+
+            <div class="booking-wizard">
+                <div class="wizard-steps">
+                    <div class="step active" data-step="1">1. Služba</div>
+                    <div class="step" data-step="2">2. Termín</div>
+                    <div class="step" data-step="3">3. Údaje</div>
+                </div>
+
+                <form id="booking-form" class="wizard-content">
+
+                    <!-- Step 1: Service Selection -->
+                    <div class="wizard-pane active" id="step-1">
+                        <h3>Vyberte službu</h3>
+                        <div class="service-selection">
+                            <!-- Dámské služby -->
+                            <label class="service-option">
+                                <input type="radio" name="service" value="damsky-strih" required>
+                                <span class="service-card">
+                                    <span class="s-name">Stříhání + Foukaná</span>
+                                    <span class="s-price">650 Kč</span>
+                                </span>
+                            </label>
+                            <label class="service-option">
+                                <input type="radio" name="service" value="barva-strih">
+                                <span class="service-card">
+                                    <span class="s-name">Barva + Střih</span>
+                                    <span class="s-price">980 Kč</span>
+                                </span>
+                            </label>
+                            <label class="service-option">
+                                <input type="radio" name="service" value="melir-strih">
+                                <span class="service-card">
+                                    <span class="s-name">Melír + Střih</span>
+                                    <span class="s-price">1180 Kč</span>
+                                </span>
+                            </label>
+                            <label class="service-option">
+                                <input type="radio" name="service" value="balayage">
+                                <span class="service-card">
+                                    <span class="s-name">Balayage / Ombre</span>
+                                    <span class="s-price">1850 Kč</span>
+                                </span>
+                            </label>
+                            <label class="service-option">
+                                <input type="radio" name="service" value="keratin">
+                                <span class="service-card">
+                                    <span class="s-name">Kreatinová kúra</span>
+                                    <span class="s-price">1500 Kč</span>
+                                </span>
+                            </label>
+                            <label class="service-option">
+                                <input type="radio" name="service" value="olaplex">
+                                <span class="service-card">
+                                    <span class="s-name">Olaplex regenerace</span>
+                                    <span class="s-price">600 Kč</span>
+                                </span>
+                            </label>
+                            <label class="service-option">
+                                <input type="radio" name="service" value="spolecensky-uces">
+                                <span class="service-card">
+                                    <span class="s-name">Společenský účes</span>
+                                    <span class="s-price">980 Kč</span>
+                                </span>
+                            </label>
+                            <label class="service-option">
+                                <input type="radio" name="service" value="wedding-trial">
+                                <span class="service-card">
+                                    <span class="s-name">Zkouška svatebního účesu</span>
+                                    <span class="s-price">1500 Kč</span>
+                                </span>
+                            </label>
+                            <label class="service-option">
+                                <input type="radio" name="service" value="detox">
+                                <span class="service-card">
+                                    <span class="s-name">Detoxikační peeling pokožky</span>
+                                    <span class="s-price">450 Kč</span>
+                                </span>
+                            </label>
+
+                            <!-- Pánské a ostatní služby -->
+                            <label class="service-option">
+                                <input type="radio" name="service" value="pansky-klasika">
+                                <span class="service-card">
+                                    <span class="s-name">Pánský střih (Klasika)</span>
+                                    <span class="s-price">350 Kč</span>
+                                </span>
+                            </label>
+                            <label class="service-option">
+                                <input type="radio" name="service" value="pansky-strojkem">
+                                <span class="service-card">
+                                    <span class="s-name">Pánský střih (Strojkem)</span>
+                                    <span class="s-price">250 Kč</span>
+                                </span>
+                            </label>
+                            <label class="service-option">
+                                <input type="radio" name="service" value="pansky-hot-towel">
+                                <span class="service-card">
+                                    <span class="s-name">Úprava vousů (Hot Towel)</span>
+                                    <span class="s-price">450 Kč</span>
+                                </span>
+                            </label>
+                            <label class="service-option">
+                                <input type="radio" name="service" value="masaz-hlavy">
+                                <span class="service-card">
+                                    <span class="s-name">Masáž hlavy</span>
+                                    <span class="s-price">250 Kč</span>
+                                </span>
+                            </label>
+                            <label class="service-option">
+                                <input type="radio" name="service" value="detsky-strih">
+                                <span class="service-card">
+                                    <span class="s-name">Dětský střih</span>
+                                    <span class="s-price">250 Kč</span>
+                                </span>
+                            </label>
+                        </div>
+                        <div class="wizard-nav">
+                            <button type="button" class="btn" id="btn-next-1">Pokračovat</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Date Selection -->
+                    <div class="wizard-pane" id="step-2">
+                        <h3>Vyberte termín</h3>
+                        <div class="date-picker-container">
+                            <input type="date" id="date-picker" name="date" required>
+                            <select id="time-picker" name="time" required>
+                                <option value="" disabled selected>Vyberte čas</option>
+                                <!-- JS will populate times -->
+                            </select>
+                        </div>
+                        <div class="wizard-nav">
+                            <button type="button" class="btn btn-outline" id="btn-prev-2">Zpět</button>
+                            <button type="button" class="btn" id="btn-next-2">Pokračovat</button>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Contact Details -->
+                    <div class="wizard-pane" id="step-3">
+                        <h3>Vaše údaje</h3>
+                        <div class="contact-inputs">
+                            <div class="form-group">
+                                <label for="name">Jméno a příjmení</label>
+                                <input type="text" id="name" name="name" required placeholder="Petr Novák">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required placeholder="petr@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Telefon</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="+420 777 123 456">
+                            </div>
+                            <div class="form-group">
+                                <label for="note">Poznámka (nepovinné)</label>
+                                <textarea id="note" name="note" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="summary-box">
+                            <h4>Souhrn rezervace:</h4>
+                            <p id="summary-text">...</p>
+                        </div>
+                        <div class="wizard-nav">
+                            <button type="button" class="btn btn-outline" id="btn-prev-3">Zpět</button>
+                            <button type="submit" class="btn">Dokončit rezervaci</button>
+                        </div>
+                    </div>
+
+                </form>
+
+                <div id="booking-success" class="booking-message hidden">
+                    <div class="success-icon">✓</div>
+                    <h3>Rezervace odeslána!</h3>
+                    <p>Děkujeme za vaši rezervaci. Potvrzení vám přijde na email.</p>
+                    <button class="btn" id="reset-booking">Nová rezervace</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Hours Section -->
+    <section id="contact" class="section bg-tertiary">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Kontakt</h2>
+                    <ul class="info-list">
+                        <li>
+                            <strong>Adresa:</strong><br>
+                            Katusická 669/79<br>
+                            Praha 9 - Kbely, 197 00
+                        </li>
+                        <li>
+                            <strong>Telefon:</strong><br>
+                            <a href="tel:286855998">+420 286 855 998</a>
+                        </li>
+                        <li>
+                            <strong>Email:</strong><br>
+                            <a href="mailto:info@vlasac.cz">info@vlasac.cz</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="opening-hours">
+                    <h2>Otevírací doba</h2>
+                    <div class="hours-grid">
+                        <div class="hours-col">
+                            <h4>Dámské</h4>
+                            <ul>
+                                <li><span>Po - Čt</span> <span>10:00 – 19:00</span></li>
+                                <li><span>Pá</span> <span>10:00 – 15:00</span></li>
+                                <li><span>So - Ne</span> <span>Zavřeno</span></li>
+                            </ul>
+                        </div>
+                        <div class="hours-col">
+                            <h4>Pánské</h4>
+                            <ul>
+                                <li><span>Po</span> <span>10:00 – 17:00</span></li>
+                                <li><span>Út</span> <span>13:00 – 19:00</span></li>
+                                <li><span>St</span> <span>10:00 – 19:00</span></li>
+                                <li><span>Čt</span> <span>10:00 – 17:00</span></li>
+                                <li><span>Pá - Ne</span> <span>Zavřeno</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Kadeřnictví Vlasáč. Všechna práva vyhrazena.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>

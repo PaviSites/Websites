@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+.vscode/
+.gemini/
+img/
+assets/*.png
+assets/*.webp
+assets/*.jpg
